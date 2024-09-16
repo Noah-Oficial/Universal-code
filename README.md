@@ -43,7 +43,7 @@ Universal code offers a wide range of functions, including, but not limited to:
 To install Universal code, you can use npm:
 
 ```bash
-npm install universal code
+npm install universal-code
 ```
 
 Once installed, you can start utilizing its functions in your Node.js projects!
