@@ -10,10 +10,34 @@ const Web = {
             }
         })
     },
-    
-    
+
 }
 
+const Extra = {
+    Array_Separation:function(Array=[],Data=""){
+
+        if (typeof(Array) != "object" || typeof(Data) != "string")return Config.Settings.Language.Invalid_Value
+
+        for (i=0;i<Array.length;i++){
+            if (Array[i] === Data){
+                return Array[i]
+            }
+        }
+    },
+    
+    Tiny:function(Text){
+        if (typeof(Text) != "string") return Config.Settings.Language.Invalid_Value
+        return Text.toLowerCase()
+    },
+
+    String_Invert:function(Text){
+        if (typeof(Text) != "string") return Config.Settings.Language.Invalid_Value
+        return Text.split('').reverse().join('')
+    }
+}
+
+
 module.exports = {
-    Web
+    Web,
+    Extra
 }

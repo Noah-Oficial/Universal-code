@@ -94,7 +94,15 @@ var Calculations = {
 
     Module:function(Number=0,divider=0){
         return Number % divider
-    }
+    },
+
+    Pair:function(number=0){
+      return number % 2 === 0
+    },
+
+
+
+
 }
 
 var Infos = {

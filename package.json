@@ -1,11 +1,17 @@
 {
   "name": "grkaty",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "main": "index.js",
   "scripts": {
     
   },
-  "keywords": [],
+  "keywords": [
+    "Mathematics",
+    "Computer",
+    "Simplify",
+    "Convert"
+
+  ],
   "author": "",
   "license": "ISC",
   "description": ""
