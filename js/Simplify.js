@@ -11,6 +11,7 @@ const Web = {
         })
     },
 
+    
 }
 
 const Extra = {
@@ -33,7 +34,10 @@ const Extra = {
     String_Invert:function(Text){
         if (typeof(Text) != "string") return Config.Settings.Language.Invalid_Value
         return Text.split('').reverse().join('')
-    }
+    },
+
+    
+
 }
 
 

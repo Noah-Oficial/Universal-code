@@ -1,3 +1,9 @@
+# WARN
+**We need ideas for new functions to be added, please email: noahcodeoficial@gmail.com**
+
+
+
+
 # Universal code
 
 🚀 **Introducing Universal code!** 🚀

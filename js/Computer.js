@@ -7,6 +7,8 @@ var Time = {
     Day:T.getUTCDate(),
     Year:T.getUTCFullYear(),
     Month:T.getUTCMonth()+1,
+    Seconds:T.getUTCSeconds(),
+    Time:T.getHours()
 }
 
 var Infos = {
@@ -17,6 +19,7 @@ var Infos = {
     Desktop_Name:os.hostname(),
     UserName:os.userInfo()["username"],
     System:os.version(),
+    Free_Memory:os.freemem(),
     
     // Functions
 
